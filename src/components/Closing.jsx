@@ -32,7 +32,7 @@ function Closing() {
         {/* Greeting text */}
         <div className='w-[90%] max-w-[400px]'>
           <p className="z-10 text-white text-center text-xl font-semibold px-4 drop-shadow-lg">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, delectus? Ut delectus voluptatibus consequatur ex.
+            Arremangala repujala si,arremangala repujalla no,MAXIMUM PULSE!!!!,como cuando when tu novia es increible,but siempre hace waza,AAAH WAZAAAAA!!! JAJAJAJ TE AMO CORAZON
           </p>
 
         {/* Button */}
@@ -41,7 +41,7 @@ function Closing() {
               className="px-4 py-2 flex justify-center items-center bg-white/20 gap-2 hover:bg-white/30 backdrop-blur-sm text-white text-sm border border-white/50 rounded-lg"
               onClick={() => navigate('/letter')}
             >
-              <ArrowLeft /> Previous page
+              <ArrowLeft /> Pagina anterior
             </button>
           </div>   
         </div>

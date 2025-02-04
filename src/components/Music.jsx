@@ -10,22 +10,22 @@ function Music() {
   // Customize and add your own songs
   const songs = [
     {
-      title: "Heavenly",
-      artist: "Cigarettes After Sex",
+      title: "Quimica Mayor",
+      artist: "Mon Laferte",
       albumCover: heavenly, 
       left: "5%",
       top: "5%",
     },
     {
-      title: "The Boy Is Mine",
-      artist: "Brandy, Monica",
+      title: "My kind of woman",
+      artist: "Mac de Marco",
       albumCover: brandy, 
       left: "40%",
       top: "15%",
     },
     {
-      title: "Die With A Smile",
-      artist: "Lady Gaga, Bruno Mars",
+      title: "Te amo y mas",
+      artist: "El libro de la vida",
       albumCover: bruno, 
       left: '15%',
       top: '40%',
@@ -38,29 +38,23 @@ function Music() {
       top: '75%',
     },
     {
-      title: "American Boy",
-      artist: "Estelle, Kanye West",
+      title: "Venus",
+      artist: "Zoe",
       albumCover: kanye, 
       left: '5%',
       top: '65%',
     },
+  
     {
-      title: "Sparks",
-      artist: "Coldplay",
-      albumCover: sparks, 
-      left: '25%',
-      top: '90%',
-    },
-    {
-      title: "Kiss Me Thru The Phone",
-      artist: "Soulja Boy, Sammie",
+      title: "Tu geografia",
+      artist: "Indios",
       albumCover: souljaboy, 
       left: '35%',
       top: '50%',
     },
     {
-      title: "Sunsetz",
-      artist: "Cigarettes After Sex",
+      title: "Perfect",
+      artist: "Ed Sheran",
       albumCover: sunsetz, 
       left: "10%",
       top: "25%",
@@ -72,7 +66,7 @@ function Music() {
     <div className="min-h-screen bg-black/20 flex flex-col items-center justify-center">
     <div className="w-[90%] max-w-[400px]">
       <h1 className="text-2xl sm:text-2xl font-bold -mb-4 mt-4 drop-shadow-lg text-white text-center">
-        Songs that remind me of you
+        Canciones que me recuerdan a ti
       </h1>
 
       <div ref={containerRef}  className=" relative w-full h-[40rem] rounded-lg overflow-hidden mt-8 mb-12">
@@ -112,7 +106,7 @@ function Music() {
           className="px-4 py-2 flex justify-center items-center bg-white/20 gap-2 hover:bg-white/30 backdrop-blur-sm text-white text-sm border border-white/50 rounded-lg"
           onClick={() => navigate("/recap")}
         >
-          <ArrowLeft /> Previous page
+          <ArrowLeft /> Pagina anterior
         </button>
       </div>
     </div>

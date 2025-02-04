@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
 // Passcode
-const CORRECT_PASSCODE = '1018' 
+const CORRECT_PASSCODE = '1101' 
 
 function Passcode() {
     const [passcode, setPasscode] = useState([])
@@ -23,7 +23,7 @@ function Passcode() {
               
             }, 500)
           } else {
-            setMessage('Incorrect passcode, hint: our anniversary date!')
+            setMessage('Contraseña incorrecta,intenta nuestro aniversarioo')
             setTimeout(() => {
               setPasscode([])
               setMessage('')
@@ -41,7 +41,7 @@ function Passcode() {
     <div className="min-h-screen w-full bg-black/60 backdrop-blur-sm text-white flex items-center justify-center overflow-hidden">
         <div className="flex flex-col items-center max-w-full">
             {/* Title */}
-            <h1 className="text-2xl font-light mb-8">Enter Passcode</h1>
+            <h1 className="text-2xl font-light mb-8">Pon la contraseña amor</h1>
 
             {/* Passcode Dots */}
             <div className="flex gap-4 mb-16">
